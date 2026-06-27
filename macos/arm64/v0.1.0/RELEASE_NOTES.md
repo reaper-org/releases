@@ -14,6 +14,10 @@ shasum -a 256 -c SHA256SUMS
 
 ## Highlights
 
+- **Live terminal output** — shell, Gradle, and Java runs stream as they execute
+- **Terminal command markers** — each run is visually separated with a labeled header/footer
+- **JUnit test chevrons** — run individual tests, parameterized tests, or the whole test class
+- **Java 8 / Gradle JVM fix** — Run Java uses your configured JDK; Gradle keeps a modern JVM
 - Cursor agent **Stop** and **Revert** (undo last turn + file changes)
 - Agent **Working… / queued** status above the chat input
 - **Open a new window when switching repos** (Settings → Appearance)
@@ -22,4 +26,4 @@ shasum -a 256 -c SHA256SUMS
 
 ## Tip
 
-Opening the `.dmg` repeatedly mounts a new Finder volume each time — eject old `Reaper` drives or run `scripts/eject-reaper-dmgs.sh` in the [reaper](https://github.com/reaper-org/reaper) repo.
+Opening the `.dmg` repeatedly mounts a new Finder volume each time — eject old `Reaper` drives. Install the reaper app first and then click the app from Applications.
