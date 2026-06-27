@@ -1,0 +1,3 @@
+# GitHub always lists "Source code (zip)" and "Source code (tar.gz)" on releases.
+# They cannot be removed; exclude all files so those archives are empty.
+* export-ignore
