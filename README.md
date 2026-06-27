@@ -30,27 +30,6 @@ Verify downloads with the checksum file in each version directory:
 shasum -a 256 -c SHA256SUMS
 ```
 
-## Publishing a new macOS build
-
-From the `reaper` repo:
-
-```bash
-./scripts/build-macos-dmg.sh
-```
-
-Copy the resulting DMG into this repo:
-
-```bash
-VERSION=0.1.0
-ARCH=arm64   # or x64
-mkdir -p "macos/${ARCH}/v${VERSION}"
-cp "../reaper/dist/Reaper-${VERSION}-macos-${ARCH}.dmg" "macos/${ARCH}/v${VERSION}/"
-cd "macos/${ARCH}/v${VERSION}"
-shasum -a 256 Reaper-${VERSION}-macos-${ARCH}.dmg > SHA256SUMS
-```
-
-Add `RELEASE_NOTES.md` for the version, then tag and create a GitHub release on this repo.
-
 ## Versions
 
 | Version | macOS arm64 | Notes |
