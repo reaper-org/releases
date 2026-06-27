@@ -17,7 +17,9 @@ shasum -a 256 -c SHA256SUMS
 - **Live terminal output** — shell, Gradle, and Java runs stream as they execute
 - **Terminal command markers** — each run is visually separated with a labeled header/footer
 - **JUnit test chevrons** — run individual tests, parameterized tests, or the whole test class
+- **Gradle test filters** — `--tests` paths with `/` and UI path suffixes parse correctly
 - **Java 8 / Gradle JVM fix** — Run Java uses your configured JDK; Gradle keeps a modern JVM
+- **Diagnostic underlines** — squiggly errors sit below code, not over it
 - Cursor agent **Stop** and **Revert** (undo last turn + file changes)
 - Agent **Working… / queued** status above the chat input
 - **Open a new window when switching repos** (Settings → Appearance)
