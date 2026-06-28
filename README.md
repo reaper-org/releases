@@ -34,4 +34,6 @@ shasum -a 256 -c SHA256SUMS
 
 | Version | macOS arm64 | Notes |
 |---------|-------------|-------|
+| [0.1.2](macos/arm64/v0.1.2/RELEASE_NOTES.md) | [DMG](macos/arm64/v0.1.2/reaper-0.1.2-macos-arm64.dmg) | AI inline completions, live diagnostics, AI quick-fix lightbulb |
+| [0.1.1](macos/arm64/v0.1.1/RELEASE_NOTES.md) | [DMG](macos/arm64/v0.1.1/reaper-0.1.1-macos-arm64.dmg) | Compiler settings table, data dir `~/reaper`, UI polish |
 | [0.1.0](macos/arm64/v0.1.0/RELEASE_NOTES.md) | [DMG](macos/arm64/v0.1.0/Reaper-0.1.0-macos-arm64.dmg) | Initial public release |
