@@ -1,4 +1,4 @@
-Reaper 0.1.2 — macOS (UI build 306)
+Reaper 0.1.2 — macOS (UI build 307)
 
 **Install:** download the **DMG for your Mac** below. Ignore GitHub's automatic "Source code (zip)" and "Source code (tar.gz)" links — those archives are empty placeholders and are not distributable builds.
 
@@ -11,13 +11,12 @@ Requires **macOS 11 (Big Sur)** or later. Drag Reaper.app to Applications, then 
 
 **First launch:** ad-hoc signed builds may require right-click → Open once, or allow in System Settings → Privacy & Security.
 
-### What's new (build 306)
-- **Bundled Node.js only in app** — Cursor agent never falls back to the laptop's Homebrew or PATH Node; build uses vendored Node too
-- Bundled Node.js for Cursor agent (build 305)
-- JaCoCo line coverage aligned with HTML report (build 304)
+### What's new (build 307)
+- **Bundled Node.js 22.13.1** — fixes Cursor agent error requiring Node >= 22.13
+- Bundled Node.js only in app, no laptop PATH fallback (build 306)
 
 **Tip:** Configure your Cursor API key in Settings → Cursor agent on each Mac.
 
-SHA256 (arm64): `270728150e2cd82295a446f126af02b0722286db6b181eb7066a0e1394b826f7`
+SHA256 (arm64): `e8617f3cbc78ce590aa06e25bdfed4022155352c4ce963857e2d1caf93fa1f62`
 
-SHA256 (x86_64): `cf93a393f7fa2186c4583a82931047b87f2890afa762c9aeb25a500ace144b75`
+SHA256 (x86_64): `4a047ca32d537d3d3e0f991ecb0b56895fcf8c7cd3a47e4d2691c2753a73d01f`
