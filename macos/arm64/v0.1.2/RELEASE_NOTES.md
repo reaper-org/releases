@@ -1,4 +1,4 @@
-Reaper 0.1.2 — macOS (UI build 297)
+Reaper 0.1.2 — macOS (UI build 301)
 
 **Install:** download the **DMG for your Mac** below. Ignore GitHub's automatic "Source code (zip)" and "Source code (tar.gz)" links — those archives are empty placeholders and are not distributable builds.
 
@@ -11,19 +11,17 @@ Requires **macOS 11 (Big Sur)** or later. Drag Reaper.app to Applications, then 
 
 **First launch:** ad-hoc signed builds may require right-click → Open once, or allow in System Settings → Privacy & Security.
 
-### What's new (build 297)
-- **Java diagnostics false positives** — suppress squiggles for SLF4J, Mockito, JUnit, and Lombok `@Slf4j` when build files declare them but Reaper's offline classpath is still catching up
-- **Project class references** — hide `cannot find symbol` for classes that exist elsewhere in the workspace sources
-- **Per-file test classpath** — test sources merge test-scoped dependency trees for javac diagnostics
-- **Gradle/Maven source roots** — recognize Kotlin, integrationTest, testFixtures, and generated layouts; color main/test/generated dirs in the file tree
+### What's new (build 301)
+- **Download links in app** — welcome screen and status bar link to Apple Silicon and Intel DMGs on GitHub
+- **Cursor agent reliability** — replace orphan bridges, surface SDK errors, fix stale bridge URL after restart
+- **Launch splash** — puzzle logo animation, harvest loop, clean black startup
+- **JaCoCo coverage** — run tests with coverage, gutter highlights, status bar panel
 
-### Prior 0.1.2 highlights (build 296)
-- **Annotation indexing** — `@RestController`, custom `@interface` types, and library annotations detected via classfile flags and shown in `@` completions
-- **Generated AP sources** — more Gradle/Maven generated output layouts indexed (MapStruct headers, annotation processor dirs)
-- **Gradle wrapper in nested modules** — walks up to repo root `./gradlew` and runs `-p <module>` instead of falling back to Settings/PATH Gradle
+### Prior 0.1.2 highlights
+- Java diagnostics false-positive fixes, annotation indexing, Gradle wrapper in nested modules
 
 **Tip:** opening the .dmg repeatedly mounts a new Finder volume each time — eject old Reaper drives when done.
 
-SHA256 (arm64): `be28763f7c6d2fc72ccfe2bb3a27bf6bf9e2ec489195fe9b1262b34ccef3403f`
+SHA256 (arm64): `366883a2c317b2ae44042b24370455e15458a4469a06e0a08a0e95fbd0ea3bbb`
 
-SHA256 (x86_64): `1435ff74ed1723a3c571c003577384b6e875c26a5e0d17187d27bd8c1c09e449`
+SHA256 (x86_64): `fcae139fe06cbcb77e2b198884117083857fd27c67fddb9ece09ce5ee35c487b`
