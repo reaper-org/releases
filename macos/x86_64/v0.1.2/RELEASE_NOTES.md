@@ -1,4 +1,4 @@
-Reaper 0.1.2 — macOS (UI build 311)
+Reaper 0.1.2 — macOS (UI build 312)
 
 **Install:** download the **DMG for your Mac** below. Ignore GitHub's automatic "Source code (zip)" and "Source code (tar.gz)" links — those archives are empty placeholders and are not distributable builds.
 
@@ -11,14 +11,14 @@ Requires **macOS 11 (Big Sur)** or later. Drag Reaper.app to Applications, then 
 
 **First launch:** ad-hoc signed builds may require right-click → Open once, or allow in System Settings → Privacy & Security.
 
-### What's new (build 311)
-- **Launch splash** — puzzle pieces snap together as clean logo quadrants (no center jigsaw circles)
-- **JaCoCo coverage** — compile before test runs; Run with coverage from test or production classes
+### What's new (build 312)
+- **JaCoCo coverage** — ◔ widget on test files; coverage panel refreshes on tab switch and after run
+- **Project indexing** — skip corrupt Gradle sources JARs instead of failing the whole index
+- **Launch splash** — puzzle pieces snap together as clean logo quadrants (build 311)
 - **Black & White theme** — clearer monochrome src/main vs src/test tree labels
-- Bundled Node.js 22.13.1 for Cursor agent (build 307)
 
 **Tip:** Configure your Cursor API key in Settings → Cursor agent on each Mac.
 
-SHA256 (arm64): `b2aedd3737224da9610e53bea6690ebab6bdf6d23d218be9482affd970e1b49a`
+SHA256 (arm64): `3d4bb9546178dcf5cb3f4b4cef3b1b7e501a58042ee34459adc8b4f2b0776bdb`
 
-SHA256 (x86_64): `ab1e1c99505ebdfd0cfbc31f5dec6fa38e33fd38069289a4980f59dd2c43f6cf`
+SHA256 (x86_64): `0f435eb70ec3fa843793e9cbcac04ae0df5aaebe935eafb0836d51627b943b1d`
