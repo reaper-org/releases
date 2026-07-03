@@ -1,4 +1,4 @@
-Reaper 0.1.2 — macOS (UI build 312)
+Reaper 0.1.2 — macOS (UI build 347)
 
 **Install:** download the **DMG for your Mac** below. Ignore GitHub's automatic "Source code (zip)" and "Source code (tar.gz)" links — those archives are empty placeholders and are not distributable builds.
 
@@ -11,14 +11,15 @@ Requires **macOS 11 (Big Sur)** or later. Drag Reaper.app to Applications, then 
 
 **First launch:** ad-hoc signed builds may require right-click → Open once, or allow in System Settings → Privacy & Security.
 
-### What's new (build 312)
-- **JaCoCo coverage** — ◔ widget on test files; coverage panel refreshes on tab switch and after run
-- **Project indexing** — skip corrupt Gradle sources JARs instead of failing the whole index
-- **Launch splash** — puzzle pieces snap together as clean logo quadrants (build 311)
-- **Black & White theme** — clearer monochrome src/main vs src/test tree labels
+### What's new (build 347)
 
-**Tip:** Configure your Cursor API key in Settings → Cursor agent on each Mac.
+- **Run controls** — gutter play icons and toolbar Run scale with editor font size; flat theme-colored icons (no circular chrome)
+- **C/C++ navigation** — go-to-definition for system/stdlib headers; external paths open read-only without breaking the tree
+- **CMake native run** — C++ projects with `CMakeLists.txt` run via cmake build instead of single-file compile
+- **Editor regression suite** — 197 automated language/UI tests run on every `cargo build` (`REAPER_SKIP_EDITOR_TESTS=1` to bypass)
+- **Package manifest panel** — browse dependencies from Cargo, npm, Ruby, Go, and CMake manifests
+- **Database viewer** — schema browser for project databases (dockable panel)
+- **JaCoCo coverage** — ◔ widget on test files; resilient project indexing when Gradle source JARs are corrupt (build 312+)
+- **Launch splash** — puzzle pieces snap together as logo quadrants (build 311)
 
-SHA256 (arm64): `3d4bb9546178dcf5cb3f4b4cef3b1b7e501a58042ee34459adc8b4f2b0776bdb`
-
-SHA256 (x86_64): `0f435eb70ec3fa843793e9cbcac04ae0df5aaebe935eafb0836d51627b943b1d`
+**Tip:** Configure your Cursor API key in Settings → Cursor agent on each Mac. Install `cmake` and `llvm` (for `clangd`) via Homebrew for full C/C++ support.
