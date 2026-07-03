@@ -23,3 +23,7 @@ Requires **macOS 11 (Big Sur)** or later. Drag Reaper.app to Applications, then 
 - **Launch splash** — puzzle pieces snap together as logo quadrants (build 311)
 
 **Tip:** Configure your Cursor API key in Settings → Cursor agent on each Mac. Install `cmake` and `llvm` (for `clangd`) via Homebrew for full C/C++ support.
+
+SHA256 (arm64): `a010124d25f4654ffb554f941ec75dcca22930abcee89105ef3d140f0245b3c5`
+
+SHA256 (x86_64): `07e73abdad23430a1ef314914e308d4ec373a9c9d8ece13fad5d0318bc89d959`
