@@ -1,4 +1,4 @@
-Reaper 0.1.2 — macOS (UI build 310)
+Reaper 0.1.2 — macOS (UI build 347)
 
 **Install:** download the **DMG for your Mac** below. Ignore GitHub's automatic "Source code (zip)" and "Source code (tar.gz)" links — those archives are empty placeholders and are not distributable builds.
 
@@ -11,13 +11,15 @@ Requires **macOS 11 (Big Sur)** or later. Drag Reaper.app to Applications, then 
 
 **First launch:** ad-hoc signed builds may require right-click → Open once, or allow in System Settings → Privacy & Security.
 
-### What's new (build 310)
-- **JaCoCo coverage** — compile before test runs; Run with coverage from test or production classes
-- **Black & White theme** — clearer monochrome src/main vs src/test tree labels
-- Bundled Node.js 22.13.1 for Cursor agent (build 307)
+### What's new (build 347)
 
-**Tip:** Configure your Cursor API key in Settings → Cursor agent on each Mac.
+- **Run controls** — gutter play icons and toolbar Run scale with editor font size; flat theme-colored icons (no circular chrome)
+- **C/C++ navigation** — go-to-definition for system/stdlib headers; external paths open read-only without breaking the tree
+- **CMake native run** — C++ projects with `CMakeLists.txt` run via cmake build instead of single-file compile
+- **Editor regression suite** — 197 automated language/UI tests run on every `cargo build` (`REAPER_SKIP_EDITOR_TESTS=1` to bypass)
+- **Package manifest panel** — browse dependencies from Cargo, npm, Ruby, Go, and CMake manifests
+- **Database viewer** — schema browser for project databases (dockable panel)
+- **JaCoCo coverage** — ◔ widget on test files; resilient project indexing when Gradle source JARs are corrupt (build 312+)
+- **Launch splash** — puzzle pieces snap together as logo quadrants (build 311)
 
-SHA256 (arm64): `73c4d8cf20fb4f2a19d8555ac5eabfe7258a749dc3ec3874fad86ff18d73abb7`
-
-SHA256 (x86_64): `b27fce40ebf7109b46387904ae33de9583b4efea89b354467e023d0629a0e22b`
+**Tip:** Configure your Cursor API key in Settings → Cursor agent on each Mac. Install `cmake` and `llvm` (for `clangd`) via Homebrew for full C/C++ support.
