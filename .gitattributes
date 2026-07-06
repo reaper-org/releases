@@ -1,3 +1,5 @@
 # GitHub always lists "Source code (zip)" and "Source code (tar.gz)" on releases.
 # They cannot be removed; exclude all files so those archives are empty.
 * export-ignore
+# DMG installers exceed GitHub's 100 MB blob limit — store via Git LFS.
+*.dmg filter=lfs diff=lfs merge=lfs -text
