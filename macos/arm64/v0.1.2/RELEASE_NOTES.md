@@ -1,6 +1,6 @@
-Reaper 0.1.2 — macOS (UI build 415)
+Reaper 0.1.2 — macOS (UI build 416)
 
-**Install:** download the **DMG for your Mac** below (Apple Silicon or Intel). This release ships **DMG installers only** — not source archives.
+**Install:** download the **DMG for your Mac** below (Apple Silicon or Intel). DMG installers only — not source archives.
 
 | Mac | Download |
 |-----|----------|
@@ -9,17 +9,15 @@ Reaper 0.1.2 — macOS (UI build 415)
 
 Requires **macOS 11 (Big Sur)** or later. Drag Reaper.app to Applications, then launch.
 
-**First launch:** ad-hoc signed builds may require right-click → Open once, or allow in System Settings → Privacy & Security.
+### What's new (build 416)
 
-### What's new (build 415)
+- **Logo** — rounded SVG (`rx=12`), no CSS wrapper chrome; splash and welcome use `drop-shadow` only
+- **Welcome page** — theme-stable logo animation (fixes Off-White white flash)
+- **Launch splash** — cache-busted logo/splash assets so updates load reliably
+- **pubspec.yaml** — Dart/Flutter project detection and run support
 
-- **Launch splash** — animated Reaper logo with theme-stable rounded SVG and "Starting IDE…" status
-- **Welcome screen** — logo animation fixes across all themes (including Off-White)
-- **pubspec.yaml** — Dart/Flutter project detection and run support (like Cargo.toml)
-- **Pre-push secret scan** — warns before push when env/properties files may contain secrets
+**Tip:** After installing, confirm build **416** in the status bar or console: `document.querySelector('meta[name=reaper-ui-build]').content`
 
-**Tip:** Configure your Cursor API key in Settings → Cursor agent on each Mac.
+SHA256 (arm64): `65998fa82c50fc2d06396a1fc8614e494c6f2568336e2119015c504828132b68`
 
-SHA256 (arm64): `64271ce7a9c600ee6d41a052221c5ad4a3da3da145a1a63dc33c69c54b34b1ee`
-
-SHA256 (x86_64): `14cf6b243a8eebc9fd2df4125db08ec9a783b036f008dfefdb92416a5d47af4b`
+SHA256 (x86_64): `6ef3e7364e6307ef5087158bb932d045e3d65f3a7af80572f922a04d76acdbc7`
