@@ -34,6 +34,7 @@ shasum -a 256 -c SHA256SUMS
 
 | Version | macOS arm64 | Notes |
 |---------|-------------|-------|
+| [0.1.6](macos/arm64/v0.1.6/RELEASE_NOTES.md) | [DMG](macos/arm64/v0.1.6/reaper-0.1.6-macos-arm64.dmg) | Named DB connections, MySQL/SSL/SSH, caret/Space fix (UI build 459) |
 | [0.1.2](macos/arm64/v0.1.2/RELEASE_NOTES.md) | [DMG](macos/arm64/v0.1.2/reaper-0.1.2-macos-arm64.dmg) | Launch splash, pubspec/Dart run, pre-push secret scan (UI build 415) |
 | [0.1.1](macos/arm64/v0.1.1/RELEASE_NOTES.md) | [DMG](macos/arm64/v0.1.1/reaper-0.1.1-macos-arm64.dmg) | Compiler settings table, data dir `~/reaper`, UI polish |
 | [0.1.0](macos/arm64/v0.1.0/RELEASE_NOTES.md) | [DMG](macos/arm64/v0.1.0/Reaper-0.1.0-macos-arm64.dmg) | Initial public release |
