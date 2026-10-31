@@ -4,4 +4,5 @@ Versioned notes for [Reaper](https://github.com/reaper-org/reaper) macOS builds.
 
 | Version | Notes |
 |---------|--------|
+| [0.1.20](v0.1.20.md) | Cursor agent status UI (503) |
 | [0.1.19](v0.1.19.md) | Cursor agent chat reliability (UI 502) |
